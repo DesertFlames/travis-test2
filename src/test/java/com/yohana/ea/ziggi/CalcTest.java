@@ -12,10 +12,10 @@ public class CalcTest {
     public void testName() throws Exception {
         Calc calc = new Calc();
         calc.setI(1);
-
-        
         calc.setJ(2);
-        Assert.assertEquals(calc.calc(),3);
+
+
+        Assert.assertEquals(calc.calc(),4);
 
     }
 }
