@@ -2,11 +2,14 @@ box: wercker/default
 build:
   steps:
     - script:
-        name: koko
+        name: apt-get update
         code: sudo apt-get update
     - script:
-        name: echo
+        name: install java
+        code: sudo apt-get install openjdk6
+    - script:
+        name: install maven
         code: sudo apt-get install maven
     - script:
-        name: echod
+        name: run test
         code: mvn test
