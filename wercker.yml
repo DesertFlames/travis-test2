@@ -2,6 +2,9 @@ box: wercker/default
 build:
   steps:
     - script:
+        name: koko
+        code: sudo apt-get update
+    - script:
         name: echo
         code: sudo apt-get install maven
     - script:
