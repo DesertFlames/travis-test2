@@ -6,7 +6,7 @@ build:
         code: sudo apt-get update
     - script:
         name: install java
-        code: sudo apt-get install openjdk-7-jre
+        code: sudo apt-get install openjdk-7-jdk openjdk-7-jre openjdk-6-jdk openjdk-6-jre
     - script:
         name: install maven
         code: sudo apt-get install maven
