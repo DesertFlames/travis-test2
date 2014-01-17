@@ -1,1 +1,5 @@
-box: wercker/default
+box: wercker/java
+steps:
+    - script:
+        name: test
+        code: mvn test
