@@ -1,4 +1,4 @@
-box: wercker/java
+box: wercker/android
 steps:
     - script:
         name: test
