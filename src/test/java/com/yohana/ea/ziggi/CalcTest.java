@@ -15,7 +15,7 @@ public class CalcTest {
         calc.setJ(2);
 
 
-        Assert.assertEquals(calc.calc(),3);
+        Assert.assertEquals(calc.calc(),4);
 
     }
 }
