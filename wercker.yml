@@ -2,6 +2,6 @@ box: wercker/android
 build:
   steps:
     - script:
-        name: echo
-        code: echo 1
+        name: test
+        code: mvn test
       
