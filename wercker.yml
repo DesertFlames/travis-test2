@@ -2,6 +2,9 @@ box: wercker/android
 build:
   steps:
     - script:
+        name: java version
+        code: java -version
+    - script:
         name: test
         code: mvn test
       
