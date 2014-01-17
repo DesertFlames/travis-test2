@@ -6,5 +6,5 @@ build:
         code: java -version
     - script:
         name: test
-        code: mvn test
+        code: mvn clean install test
       
