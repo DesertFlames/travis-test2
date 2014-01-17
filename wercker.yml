@@ -1,5 +1,1 @@
 box: wercker/android
-steps:
-    - script:
-        name: test
-        code: mvn test
